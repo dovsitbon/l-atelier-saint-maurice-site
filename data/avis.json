@@ -1,0 +1,1 @@
+{ "_doc": "Avis clients : À REMPLIR uniquement avec de vrais avis, repris avec l'accord de leurs auteurs. Format : { \"name\": \"Prénom N.\", \"date\": \"AAAA-MM\", \"text\": { \"fr\": \"…\", \"en\": \"…\" } }. Aucun avis inventé.", "items": [] }

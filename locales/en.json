@@ -1,0 +1,498 @@
+{
+  "meta": {
+    "title": "Traditional French restaurant in Amiens, quai Saint-Maurice | L'atelier",
+    "description": "L'atelier, a traditional French restaurant at 47 quai Saint-Maurice in Amiens: cassoulet, calf's head with sauce gribiche, dish of the day, weekday lunch and dinner on Friday and Saturday. Book online.",
+    "ogAlt": "L'atelier, traditional French cooking on quai Saint-Maurice in Amiens"
+  },
+  "nav": {
+    "home": "L'atelier, home",
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close menu",
+    "carte": "Menu",
+    "platDuJour": "Dish of the day",
+    "book": "Book",
+    "infos": "Info",
+    "gift": "Gift voucher",
+    "bookCta": "Book a table",
+    "call": "Call",
+    "lang": "Language"
+  },
+  "intro": {
+    "skip": "Skip",
+    "tagline": "CUISINE FRANÇAISE"
+  },
+  "announce": {
+    "dish": "Dish of the day: {dish}",
+    "dishOn": "Dish of the day, {day}: {dish}",
+    "close": "Close banner"
+  },
+  "hero": {
+    "eyebrow": "Traditional French cooking · Quai Saint-Maurice, Amiens",
+    "title": "Old-school French cooking, done right",
+    "lead": "Cassoulet, calf's head with sauce gribiche, veal blanquette: slow-cooked dishes the way they used to be, served by the river Somme.",
+    "ctaBook": "Book a table",
+    "ctaMenu": "See the menu",
+    "rating": "{value}/5 on Google",
+    "ratingCount": "{count} reviews"
+  },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed",
+    "until": "until {time}",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "tiles": {
+    "title": "On the menu",
+    "platDuJour": "Dish of the day",
+    "entrees": "Starters",
+    "plats": "Mains",
+    "desserts": "Desserts",
+    "vins": "Wine"
+  },
+  "services": {
+    "title": "At a glance",
+    "lunch": {
+      "title": "Weekday lunch",
+      "text": "Tuesday to Friday, set lunch and dish of the day."
+    },
+    "dinner": {
+      "title": "Friday and Saturday dinner",
+      "text": "À la carte, 5:30 pm to 10 pm."
+    },
+    "homemade": {
+      "title": "Made in-house",
+      "text": "Sauces, terrines and desserts made on site."
+    },
+    "booking": {
+      "title": "Booking advised",
+      "text": "Online or by phone, about thirty seats."
+    }
+  },
+  "pdj": {
+    "eyebrow": "The chalkboard",
+    "title": "Dish of the day",
+    "today": "Today",
+    "price": "Price",
+    "toFill": "to be confirmed",
+    "week": "This week",
+    "days": {
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday"
+    },
+    "none": "The dish of the day goes up on the chalkboard every morning. Give us a call to find out.",
+    "cta": "Book for lunch",
+    "updated": "Chalkboard updated on {date}"
+  },
+  "carte": {
+    "eyebrow": "The menu",
+    "title": "Starters, mains, desserts and wine",
+    "lead": "A short menu that follows the seasons. Everything is made here, from fresh produce.",
+    "seeAll": "Full menu",
+    "from": "from",
+    "toFill": "to be confirmed",
+    "signature": "House classic",
+    "checked": "Menu updated on {date}. Prices include service.",
+    "categories": {
+      "entrees": "Starters",
+      "plats": "Mains",
+      "desserts": "Desserts",
+      "vins": "Wine"
+    },
+    "items": {
+      "oeuf-mayo": {
+        "name": "Œuf mayonnaise",
+        "desc": "Hard-boiled egg, hand-whisked mayonnaise"
+      },
+      "terrine": {
+        "name": "Country terrine",
+        "desc": "Homemade, with gherkins and toast"
+      },
+      "poireaux": {
+        "name": "Leeks vinaigrette",
+        "desc": "Mustard dressing, egg mimosa"
+      },
+      "soupe": {
+        "name": "Soup of the day",
+        "desc": "Depending on the market"
+      },
+      "cassoulet": {
+        "name": "House cassoulet",
+        "desc": "White beans, duck confit, sausage and pork belly, slow-baked"
+      },
+      "tete-de-veau": {
+        "name": "Calf's head, sauce gribiche",
+        "desc": "Steamed potatoes, gribiche with capers and gherkins"
+      },
+      "blanquette": {
+        "name": "Old-style veal blanquette",
+        "desc": "Creamy mushroom sauce, rice"
+      },
+      "bourguignon": {
+        "name": "Beef bourguignon",
+        "desc": "Braised in red wine with bacon and baby onions"
+      },
+      "poisson": {
+        "name": "Market fish",
+        "desc": "Catch of the day, beurre blanc"
+      },
+      "creme-brulee": {
+        "name": "Crème brûlée",
+        "desc": "Vanilla"
+      },
+      "mousse": {
+        "name": "Chocolate mousse",
+        "desc": "Dark chocolate, served by the spoonful"
+      },
+      "tarte": {
+        "name": "Tart of the moment",
+        "desc": "Seasonal fruit, homemade pastry"
+      },
+      "ile-flottante": {
+        "name": "Île flottante",
+        "desc": "Poached meringue, custard, caramel"
+      },
+      "verre-rouge": {
+        "name": "Red wine by the glass",
+        "desc": "Current selection"
+      },
+      "verre-blanc": {
+        "name": "White wine by the glass",
+        "desc": "Current selection"
+      },
+      "pichet": {
+        "name": "Carafe of wine, 50 cl",
+        "desc": "Red, white or rosé"
+      },
+      "bouteilles": {
+        "name": "Wine by the bottle",
+        "desc": "Ask for the wine list"
+      }
+    },
+    "formules": {
+      "title": "Lunch, dinner, groups",
+      "midi": {
+        "title": "Lunch",
+        "when": "Tuesday → Friday, midday",
+        "text": "Set lunch with the dish of the day, or order from the menu."
+      },
+      "soir": {
+        "title": "Dinner",
+        "when": "Friday and Saturday evening",
+        "text": "À la carte, in a quieter room with the evening light on the quay."
+      },
+      "groupes": {
+        "title": "Groups",
+        "when": "On request",
+        "text": "Family, team or business meals: we agree the menu with you in advance."
+      },
+      "cta": {
+        "midi": "Book lunch",
+        "soir": "Book dinner",
+        "groupes": "Get in touch"
+      }
+    }
+  },
+  "blocks": {
+    "cuisine": {
+      "eyebrow": "The cooking",
+      "title": "Like home cooking, only better",
+      "text": "We take our time here. The cassoulet bakes for hours, the gribiche is whisked by hand, the blanquette simmers slowly. Recipes we know by heart and that people come back for.",
+      "cta": "See the menu"
+    },
+    "lunch": {
+      "eyebrow": "Midday",
+      "title": "A proper weekday lunch",
+      "text": "Tuesday to Friday, a simple set lunch and the dish of the day on the chalkboard. Quick enough to get back to work, good enough to come back.",
+      "cta": "Book"
+    },
+    "groups": {
+      "eyebrow": "Groups and business meals",
+      "title": "The room is yours",
+      "text": "About thirty seats by the water: just right for a family meal, a retirement lunch or a business meeting. We plan the menu together.",
+      "cta": "Get in touch"
+    }
+  },
+  "book": {
+    "eyebrow": "Booking",
+    "title": "Book a table",
+    "lead": "Lunch Tuesday to Friday, dinner on Friday and Saturday. We'll confirm your table by email or phone.",
+    "date": "Date",
+    "chooseDate": "Pick a day",
+    "service": "Service",
+    "services": {
+      "lunch": "Lunch",
+      "dinner": "Dinner"
+    },
+    "time": "Arrival time",
+    "chooseTime": "Pick a time",
+    "noTimes": "No more tables online for this service. Call us, we may still have room.",
+    "guests": "Number of guests",
+    "groupHint": "For {n} guests or more, we'll call you back to plan the meal.",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "messagePh": "Allergies, high chair, birthday…",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "callInstead": "or call",
+    "privacy": "Your details are only used to confirm your booking.",
+    "errors": {
+      "date": "Pick a day.",
+      "service": "Choose lunch or dinner.",
+      "time": "Pick a time.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "Please enter a valid email address.",
+      "server": "Your request didn't go through. Please try again, or call us on +33 3 22 44 60 23."
+    },
+    "done": {
+      "title": "Request received",
+      "text": "Thank you, {name}. We have your request for {when}.",
+      "mail": "We've emailed you a summary and will confirm your table shortly.",
+      "notSent": "To be sure of your table, please call us to confirm.",
+      "again": "New request"
+    },
+    "mail": {
+      "subject": "Booking request",
+      "title": "New booking request",
+      "group": "Group",
+      "date": "Date",
+      "service": "Service",
+      "time": "Time",
+      "guests": "Guests",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "lang": "Guest language",
+      "replyHint": "Reply to this email to write to the guest.",
+      "confirmSubject": "L'atelier: we've received your request",
+      "confirmIntro": "Hello {name},",
+      "confirmBody": "Thank you for your booking request. Here's a summary:",
+      "confirmOutro": "We'll confirm your table very soon. To change anything, call us on +33 3 22 44 60 23.",
+      "signature": "See you soon at 47 quai Saint-Maurice,\nL'atelier"
+    }
+  },
+  "reviews": {
+    "eyebrow": "What guests say",
+    "title": "Our guests' rating",
+    "count": "from {count} Google reviews",
+    "checked": "Rating checked on {date}",
+    "cta": "Read the reviews on Google",
+    "slot": "Guest review coming soon"
+  },
+  "infos": {
+    "eyebrow": "Practical info",
+    "title": "Find us",
+    "address": "Address",
+    "directions": "Directions",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "hoursNote": "Bank holidays and closures: see the banner at the top of the page.",
+    "access": "Getting here",
+    "accessText": "On the quay along the river Somme, a few minutes' walk from the Saint-Leu quarter.",
+    "parking": "Parking",
+    "parkingText": "Street parking on the quay and nearby streets (to be confirmed).",
+    "mapTitle": "Map to L'atelier, 47 quai Saint-Maurice, Amiens",
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "closed": "Closed"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Good to know",
+    "items": [
+      {
+        "q": "Do I need to book?",
+        "a": "It's a good idea: the room has about thirty seats. For Friday and Saturday evenings, try to book a few days ahead. Online here or on +33 3 22 44 60 23."
+      },
+      {
+        "q": "What are your opening hours?",
+        "a": "Tuesday to Thursday 8:30 am to 3 pm, Friday 8:30 am to 3 pm and 5:30 pm to 10 pm, Saturday 5:30 pm to 10 pm. Closed Sunday and Monday."
+      },
+      {
+        "q": "Does the dish of the day change daily?",
+        "a": "Yes. It goes up on the chalkboard every morning and on this website. It's served at lunch, Tuesday to Friday."
+      },
+      {
+        "q": "How can I pay?",
+        "a": "To be confirmed: card, cash, meal vouchers."
+      },
+      {
+        "q": "Can you host a group?",
+        "a": "Yes, for a family, team or business meal, up to the whole room on request. Call us to set the date and the menu."
+      },
+      {
+        "q": "How do I get there?",
+        "a": "We're at 47 quai Saint-Maurice, by the river Somme, a few minutes' walk from Saint-Leu. Parking: to be confirmed."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Traditional French cooking by the river Somme.",
+    "menu": "Menu",
+    "traditionnel": "Traditional restaurant in Amiens",
+    "dejeuner": "Lunch in Amiens",
+    "gift": "Gift voucher",
+    "legal": "Legal notice",
+    "rights": "© {year} L'atelier, Amiens"
+  },
+  "placeholder": "Photo coming soon",
+  "photos": {
+    "hero": {
+      "label": "The dining room or a signature dish",
+      "alt": "The dining room at L'atelier, quai Saint-Maurice, Amiens"
+    },
+    "facade": {
+      "label": "The front",
+      "alt": "L'atelier's shopfront at 47 quai Saint-Maurice"
+    },
+    "salle": {
+      "label": "The dining room",
+      "alt": "The dining room, tablecloths and wood"
+    },
+    "cassoulet": {
+      "label": "The cassoulet",
+      "alt": "The house cassoulet"
+    },
+    "veau": {
+      "label": "Calf's head",
+      "alt": "Calf's head with sauce gribiche"
+    },
+    "platDuJour": {
+      "label": "The chalkboard",
+      "alt": "The dish of the day chalkboard"
+    },
+    "entrees": {
+      "label": "A starter",
+      "alt": "A starter from the menu"
+    },
+    "plats": {
+      "label": "A main",
+      "alt": "A main course from the menu"
+    },
+    "desserts": {
+      "label": "A dessert",
+      "alt": "A homemade dessert"
+    },
+    "vins": {
+      "label": "Wine",
+      "alt": "Glasses of wine at the counter"
+    },
+    "cuisine": {
+      "label": "In the kitchen",
+      "alt": "A cast-iron pot in the kitchen"
+    },
+    "dejeuner": {
+      "label": "Lunch",
+      "alt": "A table set for lunch"
+    },
+    "groupes": {
+      "label": "The room, set",
+      "alt": "The room set for a group"
+    },
+    "equipe": {
+      "label": "The owner",
+      "alt": "The owner of L'atelier"
+    }
+  },
+  "pages": {
+    "carte": {
+      "title": "The menu",
+      "metaTitle": "Menu: traditional French cooking in Amiens | L'atelier",
+      "metaDescription": "L'atelier's menu, quai Saint-Maurice in Amiens: œuf mayonnaise, homemade terrine, cassoulet, calf's head with sauce gribiche, crème brûlée, wine by the glass. Prices and set lunch."
+    },
+    "traditionnel": {
+      "title": "Traditional French restaurant in Amiens",
+      "metaTitle": "Traditional French restaurant in Amiens, home cooking | L'atelier",
+      "metaDescription": "A traditional French restaurant in Amiens at 47 quai Saint-Maurice: cassoulet, calf's head with sauce gribiche, veal blanquette and homemade desserts. Weekday lunch, Friday and Saturday dinner.",
+      "eyebrow": "French cooking · Amiens",
+      "lead": "At 47 quai Saint-Maurice, L'atelier serves traditional French food: slow-cooked dishes, hand-made sauces and desserts that never go out of style.",
+      "sections": [
+        {
+          "h": "Traditional cooking, made in-house",
+          "p": "The cassoulet bakes slowly in the oven, the calf's head comes with a caper-studded sauce gribiche, the blanquette keeps its old-fashioned cream sauce. Nothing complicated: good produce and as much time as it takes."
+        },
+        {
+          "h": "Cassoulet in Amiens",
+          "p": "It's the dish our guests mention most. Melting beans, duck confit, sausage and pork belly: a generous plate, to share or not."
+        },
+        {
+          "h": "By the river Somme",
+          "p": "The restaurant sits on quai Saint-Maurice, a few minutes' walk from the Saint-Leu quarter. A small, warm room of about thirty seats, where people come back as regulars."
+        },
+        {
+          "h": "When to come",
+          "p": "Lunch Tuesday to Friday, with the set lunch and dish of the day. Dinner on Friday and Saturday, à la carte. Booking advised."
+        }
+      ],
+      "cta": "Book a table"
+    },
+    "dejeuner": {
+      "title": "Lunch in Amiens",
+      "metaTitle": "Lunch in Amiens: set lunch and dish of the day | L'atelier",
+      "metaDescription": "Lunch in Amiens on quai Saint-Maurice: set lunch from €17, homemade dish of the day, Tuesday to Friday. Book online or call +33 3 22 44 60 23.",
+      "eyebrow": "Midday, Tuesday to Friday",
+      "lead": "A set lunch, a dish of the day on the chalkboard and a quiet room by the river Somme. For a business lunch or a break with colleagues.",
+      "sections": [
+        {
+          "h": "The set lunch",
+          "p": "Starter and main, or main and dessert, from {price}. The dish of the day changes daily and follows the market (to be confirmed)."
+        },
+        {
+          "h": "Served on time",
+          "p": "Lunch service starts at 11:45 am. Tell us if you're in a hurry and we'll make it work."
+        },
+        {
+          "h": "Business lunches",
+          "p": "A quiet table to talk, or the whole room for a team. Call us to plan the menu ahead."
+        }
+      ],
+      "cta": "Book lunch"
+    },
+    "cadeau": {
+      "title": "Gift voucher",
+      "metaTitle": "Restaurant gift voucher in Amiens | L'atelier",
+      "metaDescription": "Give a meal at L'atelier, a traditional French restaurant on quai Saint-Maurice in Amiens: gift voucher to collect at the restaurant.",
+      "eyebrow": "Give a meal",
+      "lead": "Lunch or dinner at L'atelier, as a gift for a birthday, a farewell or just because.",
+      "how": "How it works",
+      "steps": [
+        "Call us or drop by to choose an amount or a meal.",
+        "We prepare the voucher in your name, to collect at 47 quai Saint-Maurice.",
+        "The recipient books whenever they like (validity: to be confirmed)."
+      ],
+      "cta": "Call about a gift voucher"
+    },
+    "legal": {
+      "title": "Legal notice",
+      "metaTitle": "Legal notice | L'atelier",
+      "pending": "to be confirmed",
+      "editor": "Publisher",
+      "editorText": "L'atelier, restaurant, 47 quai Saint-Maurice, 80000 Amiens, France. Phone: +33 3 22 44 60 23.",
+      "company": "Company name",
+      "siret": "SIRET",
+      "director": "Publication director",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "Details sent through the booking form (name, phone, email, message) are only used to handle your request. They are never sold or shared. To see or delete them, contact the restaurant.",
+      "cookies": "Cookies",
+      "cookiesText": "This site uses no advertising or analytics cookies. One technical cookie only remembers your language.",
+      "photos": "Photos and text",
+      "photosText": "Photos and text: L'atelier. Reproduction requires permission."
+    }
+  }
+}

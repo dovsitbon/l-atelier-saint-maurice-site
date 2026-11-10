@@ -1,0 +1,1 @@
+Déposez ici les photos (plats). Voir scripts/photos.mjs et data/photos.json.

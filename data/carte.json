@@ -1,0 +1,34 @@
+{
+  "_doc": "La carte. Textes dans locales/*.json → carte.items. price : nombre en euros, ou null tant qu'il n'est pas connu (le site affiche « à remplir »). from : true si le prix varie (« à partir de »). PLATS PROPOSÉS d'après les avis et la fiche Amiens Tourisme : À VALIDER avec le chef, prix À REMPLIR.",
+  "checked": "2026-11-10",
+  "formules": [
+    { "id": "midi", "price": 17, "from": true, "source": "Amiens Tourisme (prix min. de la formule du midi), à confirmer" },
+    { "id": "soir", "price": null, "from": false },
+    { "id": "groupes", "price": null, "from": true }
+  ],
+  "categories": [
+    { "id": "entrees", "items": ["oeuf-mayo", "terrine", "poireaux", "soupe"] },
+    { "id": "plats", "items": ["cassoulet", "tete-de-veau", "blanquette", "bourguignon", "poisson"] },
+    { "id": "desserts", "items": ["creme-brulee", "mousse", "tarte", "ile-flottante"] },
+    { "id": "vins", "items": ["verre-rouge", "verre-blanc", "pichet", "bouteilles"] }
+  ],
+  "items": {
+    "oeuf-mayo": { "price": null },
+    "terrine": { "price": null },
+    "poireaux": { "price": null },
+    "soupe": { "price": null },
+    "cassoulet": { "price": null, "signature": true },
+    "tete-de-veau": { "price": null, "signature": true },
+    "blanquette": { "price": null },
+    "bourguignon": { "price": null },
+    "poisson": { "price": null, "from": true },
+    "creme-brulee": { "price": null },
+    "mousse": { "price": null },
+    "tarte": { "price": null },
+    "ile-flottante": { "price": null },
+    "verre-rouge": { "price": null, "from": true },
+    "verre-blanc": { "price": null, "from": true },
+    "pichet": { "price": null, "from": true },
+    "bouteilles": { "price": null, "from": true }
+  }
+}

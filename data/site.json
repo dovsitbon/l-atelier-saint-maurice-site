@@ -1,0 +1,24 @@
+{
+  "name": "L'atelier",
+  "url": "https://l-atelier-amiens.vercel.app",
+  "phone": "03 22 44 60 23",
+  "phoneIntl": "+33322446023",
+  "whatsapp": "",
+  "email": "",
+  "address": { "street": "47 quai Saint-Maurice", "postalCode": "80000", "city": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.9009854, "lng": 2.2944223 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L%27atelier+47+quai+Saint-Maurice+80000+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=L%27atelier,+47+quai+Saint-Maurice,+80000+Amiens&z=16&output=embed",
+  "reviewsUrl": "https://www.google.com/maps/search/?api=1&query=L%27atelier+47+quai+Saint-Maurice+Amiens",
+  "rating": { "value": 4.6, "count": 80, "source": "Google", "checked": "2026-11-10" },
+  "capacity": 30,
+  "lunchFrom": 17,
+  "reservation": {
+    "_doc": "Fenêtres d'arrivée par service (heure de Paris), proposées seulement les jours où le restaurant est ouvert à cette heure-là (data/horaires.json). Pas toutes les 15 min.",
+    "services": { "lunch": ["11:45", "13:45"], "dinner": ["18:30", "21:00"] },
+    "stepMinutes": 15,
+    "maxGuests": 30,
+    "groupFrom": 10
+  },
+  "legal": { "company": "", "siret": "", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

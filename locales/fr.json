@@ -1,0 +1,498 @@
+{
+  "meta": {
+    "title": "Restaurant de cuisine française traditionnelle à Amiens, quai Saint-Maurice | L'atelier",
+    "description": "L'atelier, restaurant de cuisine française traditionnelle au 47 quai Saint-Maurice à Amiens : cassoulet, tête de veau sauce gribiche, plat du jour, déjeuner en semaine et dîner le vendredi et le samedi. Réservez en ligne.",
+    "ogAlt": "L'atelier, cuisine française traditionnelle, quai Saint-Maurice à Amiens"
+  },
+  "nav": {
+    "home": "L'atelier, accueil",
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "carte": "La carte",
+    "platDuJour": "Plat du jour",
+    "book": "Réserver",
+    "infos": "Infos",
+    "gift": "Bon cadeau",
+    "bookCta": "Réserver une table",
+    "call": "Appeler",
+    "lang": "Langue"
+  },
+  "intro": {
+    "skip": "Passer",
+    "tagline": "CUISINE FRANÇAISE"
+  },
+  "announce": {
+    "dish": "Plat du jour : {dish}",
+    "dishOn": "Plat du jour, {day} : {dish}",
+    "close": "Fermer le bandeau"
+  },
+  "hero": {
+    "eyebrow": "Cuisine française traditionnelle · Quai Saint-Maurice, Amiens",
+    "title": "Les recettes de toujours",
+    "lead": "Cassoulet, tête de veau sauce gribiche, blanquette : des plats mijotés comme avant, servis au bord de la Somme.",
+    "ctaBook": "Réserver une table",
+    "ctaMenu": "Voir la carte",
+    "rating": "{value}/5 sur Google",
+    "ratingCount": "{count} avis"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé",
+    "until": "jusqu'à {time}",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "tiles": {
+    "title": "À la carte",
+    "platDuJour": "Plat du jour",
+    "entrees": "Entrées",
+    "plats": "Plats",
+    "desserts": "Desserts",
+    "vins": "Vins"
+  },
+  "services": {
+    "title": "La maison en bref",
+    "lunch": {
+      "title": "Déjeuner en semaine",
+      "text": "Du mardi au vendredi, formule et plat du jour."
+    },
+    "dinner": {
+      "title": "Dîner vendredi et samedi",
+      "text": "À la carte, de 17 h 30 à 22 h."
+    },
+    "homemade": {
+      "title": "Fait maison",
+      "text": "Sauces, terrines et desserts préparés sur place."
+    },
+    "booking": {
+      "title": "Sur réservation",
+      "text": "En ligne ou par téléphone, une trentaine de couverts."
+    }
+  },
+  "pdj": {
+    "eyebrow": "L'ardoise",
+    "title": "Le plat du jour",
+    "today": "Aujourd'hui",
+    "price": "Prix",
+    "toFill": "à remplir",
+    "week": "Cette semaine",
+    "days": {
+      "2": "Mardi",
+      "3": "Mercredi",
+      "4": "Jeudi",
+      "5": "Vendredi"
+    },
+    "none": "Le plat du jour est écrit chaque matin sur l'ardoise. Appelez-nous pour le connaître.",
+    "cta": "Réserver pour midi",
+    "updated": "Ardoise mise à jour le {date}"
+  },
+  "carte": {
+    "eyebrow": "La carte",
+    "title": "Entrées, plats, desserts et vins",
+    "lead": "Une carte courte, qui change avec les saisons. Tout est préparé ici, à partir de produits frais.",
+    "seeAll": "La carte complète",
+    "from": "à partir de",
+    "toFill": "à remplir",
+    "signature": "La maison",
+    "checked": "Carte mise à jour le {date}. Prix nets, service compris.",
+    "categories": {
+      "entrees": "Entrées",
+      "plats": "Plats",
+      "desserts": "Desserts",
+      "vins": "Vins"
+    },
+    "items": {
+      "oeuf-mayo": {
+        "name": "Œuf mayonnaise",
+        "desc": "Mayonnaise montée à la main"
+      },
+      "terrine": {
+        "name": "Terrine de campagne",
+        "desc": "Faite maison, cornichons et pain grillé"
+      },
+      "poireaux": {
+        "name": "Poireaux vinaigrette",
+        "desc": "Vinaigrette à la moutarde, œuf mimosa"
+      },
+      "soupe": {
+        "name": "Soupe du jour",
+        "desc": "Selon le marché"
+      },
+      "cassoulet": {
+        "name": "Cassoulet de la maison",
+        "desc": "Haricots lingots, confit de canard, saucisse et poitrine, cuit longuement au four"
+      },
+      "tete-de-veau": {
+        "name": "Tête de veau, sauce gribiche",
+        "desc": "Pommes vapeur, gribiche aux câpres et cornichons"
+      },
+      "blanquette": {
+        "name": "Blanquette de veau à l'ancienne",
+        "desc": "Sauce crème et champignons, riz"
+      },
+      "bourguignon": {
+        "name": "Bœuf bourguignon",
+        "desc": "Mijoté au vin rouge, lardons et petits oignons"
+      },
+      "poisson": {
+        "name": "Poisson du marché",
+        "desc": "Selon l'arrivage, beurre blanc"
+      },
+      "creme-brulee": {
+        "name": "Crème brûlée",
+        "desc": "À la vanille"
+      },
+      "mousse": {
+        "name": "Mousse au chocolat",
+        "desc": "Chocolat noir, servie à la cuillère"
+      },
+      "tarte": {
+        "name": "Tarte du moment",
+        "desc": "Fruits de saison, pâte maison"
+      },
+      "ile-flottante": {
+        "name": "Île flottante",
+        "desc": "Crème anglaise, caramel"
+      },
+      "verre-rouge": {
+        "name": "Vin rouge au verre",
+        "desc": "La sélection du moment"
+      },
+      "verre-blanc": {
+        "name": "Vin blanc au verre",
+        "desc": "La sélection du moment"
+      },
+      "pichet": {
+        "name": "Pichet de vin, 50 cl",
+        "desc": "Rouge, blanc ou rosé"
+      },
+      "bouteilles": {
+        "name": "Vins en bouteille",
+        "desc": "Demandez la carte des vins en salle"
+      }
+    },
+    "formules": {
+      "title": "Déjeuner, dîner, groupes",
+      "midi": {
+        "title": "Le déjeuner",
+        "when": "Mardi → vendredi, midi",
+        "text": "Formule du midi avec le plat du jour, ou la carte."
+      },
+      "soir": {
+        "title": "Le dîner",
+        "when": "Vendredi et samedi soir",
+        "text": "À la carte, dans une salle plus calme, à la lumière du soir sur le quai."
+      },
+      "groupes": {
+        "title": "Les groupes",
+        "when": "Sur demande",
+        "text": "Repas de famille, d'équipe ou d'affaires : menu fixé ensemble à l'avance."
+      },
+      "cta": {
+        "midi": "Réserver un déjeuner",
+        "soir": "Réserver un dîner",
+        "groupes": "Nous contacter"
+      }
+    }
+  },
+  "blocks": {
+    "cuisine": {
+      "eyebrow": "La cuisine",
+      "title": "Comme à la maison, en mieux",
+      "text": "Ici, on prend le temps. Le cassoulet cuit des heures, la gribiche se monte à la main, la blanquette mijote doucement. Des recettes que l'on connaît par cœur et que l'on aime retrouver.",
+      "cta": "Voir la carte"
+    },
+    "lunch": {
+      "eyebrow": "Le midi",
+      "title": "Un vrai déjeuner, en semaine",
+      "text": "Du mardi au vendredi, une formule simple et le plat du jour écrit à l'ardoise. Assez rapide pour reprendre le travail, assez bon pour qu'on y revienne.",
+      "cta": "Réserver"
+    },
+    "groups": {
+      "eyebrow": "Groupes et repas d'affaires",
+      "title": "La salle pour vous",
+      "text": "Une trentaine de couverts au bord de l'eau : la bonne taille pour un repas de famille, un départ en retraite ou un déjeuner d'affaires. On fixe le menu ensemble.",
+      "cta": "Nous contacter"
+    }
+  },
+  "book": {
+    "eyebrow": "Réservation",
+    "title": "Réserver une table",
+    "lead": "Le midi du mardi au vendredi, le soir le vendredi et le samedi. Nous vous confirmons la table par e-mail ou par téléphone.",
+    "date": "Date",
+    "chooseDate": "Choisir un jour",
+    "service": "Service",
+    "services": {
+      "lunch": "Déjeuner",
+      "dinner": "Dîner"
+    },
+    "time": "Heure d'arrivée",
+    "chooseTime": "Choisir une heure",
+    "noTimes": "Plus de table en ligne pour ce service. Appelez-nous, il reste peut-être une place.",
+    "guests": "Nombre de personnes",
+    "groupHint": "À partir de {n} personnes, nous vous rappelons pour organiser le repas.",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "message": "Message",
+    "messagePh": "Allergie, chaise haute, anniversaire…",
+    "submit": "Envoyer la demande",
+    "sending": "Envoi…",
+    "callInstead": "ou appelez le",
+    "privacy": "Vos coordonnées servent uniquement à confirmer la réservation.",
+    "errors": {
+      "date": "Choisissez un jour.",
+      "service": "Choisissez le déjeuner ou le dîner.",
+      "time": "Choisissez une heure.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Indiquez une adresse e-mail valide.",
+      "server": "La demande n'est pas partie. Réessayez, ou appelez-nous au 03 22 44 60 23."
+    },
+    "done": {
+      "title": "Demande bien reçue",
+      "text": "Merci {name}. Votre demande pour {when} est entre nos mains.",
+      "mail": "Un e-mail récapitulatif vient de vous être envoyé. Nous vous confirmons la table rapidement.",
+      "notSent": "Pour être sûr de votre table, appelez-nous pour la confirmer.",
+      "again": "Nouvelle demande"
+    },
+    "mail": {
+      "subject": "Demande de réservation",
+      "title": "Nouvelle demande de réservation",
+      "group": "Groupe",
+      "date": "Date",
+      "service": "Service",
+      "time": "Heure",
+      "guests": "Personnes",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "lang": "Langue du client",
+      "replyHint": "Répondez directement à cet e-mail pour écrire au client.",
+      "confirmSubject": "L'atelier : nous avons bien reçu votre demande",
+      "confirmIntro": "Bonjour {name},",
+      "confirmBody": "Merci pour votre demande de réservation. Voici le récapitulatif :",
+      "confirmOutro": "Nous vous confirmons la table très vite. Pour toute modification, appelez-nous au 03 22 44 60 23.",
+      "signature": "À bientôt au 47 quai Saint-Maurice,\nL'atelier"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Ce qu'on en dit",
+    "title": "La note de nos clients",
+    "count": "sur {count} avis Google",
+    "checked": "Note relevée le {date}",
+    "cta": "Lire les avis sur Google",
+    "slot": "Avis client à venir"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Nous trouver",
+    "address": "Adresse",
+    "directions": "Itinéraire",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "hoursNote": "Jours fériés et congés : voir le bandeau en haut de la page.",
+    "access": "Accès",
+    "accessText": "Sur le quai, le long de la Somme, à quelques minutes à pied du quartier Saint-Leu.",
+    "parking": "Stationnement",
+    "parkingText": "Stationnement sur le quai et dans les rues voisines (à remplir).",
+    "mapTitle": "Plan d'accès à L'atelier, 47 quai Saint-Maurice, Amiens",
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
+    "closed": "Fermé"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Bon à savoir",
+    "items": [
+      {
+        "q": "Faut-il réserver ?",
+        "a": "C'est conseillé : la salle compte une trentaine de couverts. Pour le vendredi et le samedi soir, réservez de préférence quelques jours avant. En ligne sur ce site ou au 03 22 44 60 23."
+      },
+      {
+        "q": "Quels sont vos horaires ?",
+        "a": "Du mardi au jeudi de 8 h 30 à 15 h, le vendredi de 8 h 30 à 15 h puis de 17 h 30 à 22 h, le samedi de 17 h 30 à 22 h. Fermé le dimanche et le lundi."
+      },
+      {
+        "q": "Le plat du jour change-t-il tous les jours ?",
+        "a": "Oui. Il est écrit chaque matin sur l'ardoise et mis à jour sur ce site. Il est servi au déjeuner, du mardi au vendredi."
+      },
+      {
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "À remplir : carte bancaire, espèces, titres-restaurant."
+      },
+      {
+        "q": "Pouvez-vous accueillir un groupe ?",
+        "a": "Oui, pour un repas de famille, d'équipe ou d'affaires, jusqu'à la salle entière sur demande. Appelez-nous pour fixer la date et le menu."
+      },
+      {
+        "q": "Comment venir ?",
+        "a": "Nous sommes au 47 quai Saint-Maurice, au bord de la Somme, à quelques minutes à pied de Saint-Leu. Stationnement : à remplir."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Cuisine française traditionnelle, au bord de la Somme.",
+    "menu": "La carte",
+    "traditionnel": "Restaurant traditionnel à Amiens",
+    "dejeuner": "Déjeuner à Amiens",
+    "gift": "Bon cadeau",
+    "legal": "Mentions légales",
+    "rights": "© {year} L'atelier, Amiens"
+  },
+  "placeholder": "Photo à venir",
+  "photos": {
+    "hero": {
+      "label": "La salle ou un plat signature",
+      "alt": "La salle de L'atelier, quai Saint-Maurice à Amiens"
+    },
+    "facade": {
+      "label": "La façade",
+      "alt": "La façade de L'atelier au 47 quai Saint-Maurice"
+    },
+    "salle": {
+      "label": "La salle",
+      "alt": "La salle du restaurant, nappes et bois"
+    },
+    "cassoulet": {
+      "label": "Le cassoulet",
+      "alt": "Le cassoulet de la maison"
+    },
+    "veau": {
+      "label": "La tête de veau",
+      "alt": "Tête de veau, sauce gribiche"
+    },
+    "platDuJour": {
+      "label": "L'ardoise",
+      "alt": "L'ardoise du plat du jour"
+    },
+    "entrees": {
+      "label": "Une entrée",
+      "alt": "Une entrée de la carte"
+    },
+    "plats": {
+      "label": "Un plat",
+      "alt": "Un plat de la carte"
+    },
+    "desserts": {
+      "label": "Un dessert",
+      "alt": "Un dessert maison"
+    },
+    "vins": {
+      "label": "Les vins",
+      "alt": "Verres de vin au comptoir"
+    },
+    "cuisine": {
+      "label": "En cuisine",
+      "alt": "Une cocotte en cuisine"
+    },
+    "dejeuner": {
+      "label": "Le déjeuner",
+      "alt": "Une table dressée pour le déjeuner"
+    },
+    "groupes": {
+      "label": "La salle dressée",
+      "alt": "La salle dressée pour un groupe"
+    },
+    "equipe": {
+      "label": "Le patron",
+      "alt": "Le patron de L'atelier"
+    }
+  },
+  "pages": {
+    "carte": {
+      "title": "La carte",
+      "metaTitle": "La carte : cuisine française traditionnelle à Amiens | L'atelier",
+      "metaDescription": "La carte de L'atelier, quai Saint-Maurice à Amiens : œuf mayonnaise, terrine maison, cassoulet, tête de veau sauce gribiche, crème brûlée, vins au verre. Prix et formule du midi."
+    },
+    "traditionnel": {
+      "title": "Restaurant traditionnel à Amiens",
+      "metaTitle": "Restaurant traditionnel à Amiens, cuisine française maison | L'atelier",
+      "metaDescription": "Un restaurant traditionnel à Amiens, au 47 quai Saint-Maurice : cassoulet, tête de veau sauce gribiche, blanquette et desserts maison. Déjeuner en semaine, dîner le vendredi et le samedi.",
+      "eyebrow": "Cuisine française · Amiens",
+      "lead": "Au 47 quai Saint-Maurice, L'atelier sert une cuisine française de tradition : des plats mijotés, des sauces faites à la main et des desserts de toujours.",
+      "sections": [
+        {
+          "h": "Une cuisine de tradition, faite maison",
+          "p": "Le cassoulet cuit longuement au four, la tête de veau arrive avec sa sauce gribiche aux câpres, la blanquette garde sa sauce crème à l'ancienne. Rien de compliqué : de bons produits et le temps qu'il faut."
+        },
+        {
+          "h": "Le cassoulet, à Amiens",
+          "p": "C'est le plat que nos clients citent le plus souvent. Haricots fondants, confit de canard, saucisse et poitrine : une assiette généreuse, à partager ou non."
+        },
+        {
+          "h": "Au bord de la Somme",
+          "p": "Le restaurant est sur le quai Saint-Maurice, à quelques minutes à pied du quartier Saint-Leu. Une petite salle d'une trentaine de couverts, chaleureuse, où l'on vient en habitué."
+        },
+        {
+          "h": "Quand venir",
+          "p": "Le midi du mardi au vendredi, avec la formule et le plat du jour. Le soir, le vendredi et le samedi, à la carte. Réservation conseillée."
+        }
+      ],
+      "cta": "Réserver une table"
+    },
+    "dejeuner": {
+      "title": "Déjeuner à Amiens",
+      "metaTitle": "Déjeuner à Amiens : formule du midi et plat du jour | L'atelier",
+      "metaDescription": "Déjeuner à Amiens, quai Saint-Maurice : formule du midi à partir de 17 €, plat du jour fait maison, du mardi au vendredi. Réservation en ligne ou au 03 22 44 60 23.",
+      "eyebrow": "Le midi, du mardi au vendredi",
+      "lead": "Une formule du midi, un plat du jour écrit à l'ardoise et une salle au calme au bord de la Somme. Pour un déjeuner d'affaires comme pour une pause entre collègues.",
+      "sections": [
+        {
+          "h": "La formule du midi",
+          "p": "Entrée et plat, ou plat et dessert, à partir de {price}. Le plat du jour change chaque jour et suit le marché (formule à confirmer)."
+        },
+        {
+          "h": "Servi à l'heure",
+          "p": "Le service du midi commence à 11 h 45. Dites-nous si vous êtes pressés : on s'organise."
+        },
+        {
+          "h": "Les déjeuners d'affaires",
+          "p": "Une table au calme pour discuter, ou la salle entière pour une équipe. Appelez-nous pour préparer le menu à l'avance."
+        }
+      ],
+      "cta": "Réserver un déjeuner"
+    },
+    "cadeau": {
+      "title": "Bon cadeau",
+      "metaTitle": "Bon cadeau restaurant à Amiens | L'atelier",
+      "metaDescription": "Offrez un repas à L'atelier, restaurant de cuisine française traditionnelle quai Saint-Maurice à Amiens : bon cadeau à retirer au restaurant.",
+      "eyebrow": "Offrir",
+      "lead": "Un déjeuner ou un dîner à L'atelier, à offrir pour un anniversaire, un départ ou simplement pour faire plaisir.",
+      "how": "Comment ça marche",
+      "steps": [
+        "Appelez-nous ou passez au restaurant pour choisir le montant ou le repas offert.",
+        "Le bon est préparé à votre nom, à retirer au 47 quai Saint-Maurice.",
+        "La personne réserve sa table quand elle le souhaite (durée de validité : à remplir)."
+      ],
+      "cta": "Appeler pour un bon cadeau"
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "metaTitle": "Mentions légales | L'atelier",
+      "pending": "à remplir",
+      "editor": "Éditeur du site",
+      "editorText": "L'atelier, restaurant, 47 quai Saint-Maurice, 80000 Amiens. Téléphone : 03 22 44 60 23.",
+      "company": "Raison sociale",
+      "siret": "SIRET",
+      "director": "Directeur de la publication",
+      "host": "Hébergement",
+      "data": "Données personnelles",
+      "dataText": "Les informations envoyées par le formulaire de réservation (nom, téléphone, e-mail, message) servent uniquement à traiter votre demande. Elles ne sont ni vendues ni cédées. Pour les consulter ou les faire supprimer, contactez le restaurant.",
+      "cookies": "Cookies",
+      "cookiesText": "Ce site n'utilise pas de cookie publicitaire ni de mesure d'audience. Un cookie technique mémorise seulement la langue choisie.",
+      "photos": "Photos et textes",
+      "photosText": "Photos et textes : L'atelier. Toute reproduction est soumise à autorisation."
+    }
+  }
+}

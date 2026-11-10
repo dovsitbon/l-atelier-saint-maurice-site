@@ -1,0 +1,402 @@
+@import "tailwindcss";
+
+@theme {
+  /* Bistrot au bord de l'eau : nappe crème, bordeaux du vin et des banquettes, vert bistrot des façades,
+     laiton des barres et des cuivres, encre de l'ardoise. */
+  --color-cream: #f5efe3;
+  --color-cream-deep: #ebe2d0;
+  --color-paper: #fbf8f1;
+  --color-bordeaux: #6e1f27;
+  --color-bordeaux-deep: #561820;
+  --color-vert: #2e4a3a;
+  --color-vert-deep: #233a2d;
+  --color-laiton: #b08d57;
+  /* Laiton pour du texte sur crème : 4,6:1 */
+  --color-laiton-ink: #80643a;
+  --color-ink: #1e1b18;
+  /* Texte secondaire : 7,4:1 sur crème */
+  --color-muted: #574c42;
+  --color-line: #dacdb6;
+
+  --font-body: var(--font-jost), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    color-scheme: light;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-bordeaux);
+    color: var(--color-cream);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-bordeaux);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-size: 0.9375rem;
+    color: var(--color-bordeaux);
+    font-family: var(--font-display);
+    font-style: italic;
+  }
+  .caps {
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    border-radius: 2px;
+    white-space: nowrap;
+    transition:
+      background-color 0.35s var(--ease-soft),
+      color 0.35s var(--ease-soft),
+      border-color 0.35s var(--ease-soft),
+      transform 0.15s var(--ease-soft);
+  }
+  .btn:active,
+  .btn-line:active {
+    transform: scale(0.98);
+  }
+  .btn {
+    background: var(--color-bordeaux);
+    border: 1px solid var(--color-bordeaux);
+    color: var(--color-cream);
+  }
+  .btn:hover {
+    background: var(--color-bordeaux-deep);
+    border-color: var(--color-bordeaux-deep);
+  }
+  .btn-line {
+    border: 1px solid color-mix(in srgb, currentColor 50%, transparent);
+  }
+  .btn-line:hover {
+    border-color: currentColor;
+    background: color-mix(in srgb, currentColor 7%, transparent);
+  }
+  /* Bouton clair, sur le hero et l'ardoise */
+  .btn-cream {
+    background: var(--color-cream);
+    border-color: var(--color-cream);
+    color: var(--color-bordeaux);
+  }
+  .btn-cream:hover {
+    background: var(--color-paper);
+    border-color: var(--color-paper);
+  }
+  .link-line {
+    background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px;
+    padding-bottom: 0.15em;
+    transition: background-size 0.5s var(--ease-soft);
+  }
+  .link-line:hover {
+    background-size: 0 1px;
+  }
+
+  /* Filet double, comme sur une carte imprimée */
+  .rule {
+    height: 4px;
+    border-block: 1px solid var(--color-laiton);
+  }
+
+  /* Pointillés entre le nom du plat et le prix */
+  .leader {
+    flex: 1;
+    min-width: 1.5rem;
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-ink) 35%, transparent);
+    transform: translateY(-0.3em);
+  }
+
+  .field {
+    width: 100%;
+    border: 1px solid var(--color-line);
+    background: var(--color-paper);
+    padding: 0.75rem 0.875rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    border-radius: 2px;
+    min-height: 3rem;
+    transition: border-color 0.3s;
+  }
+  select.field {
+    appearance: none;
+    background: var(--color-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236e1f27' stroke-width='1.6'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.75rem center / 1rem;
+    padding-inline-end: 2.25rem;
+    cursor: pointer;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-ink);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-bordeaux);
+  }
+  .field:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+  .field::placeholder {
+    color: #8a7d70;
+  }
+  .label {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-muted);
+    margin-bottom: 0.375rem;
+  }
+  .seg {
+    display: inline-flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    padding: 0.5rem 1.125rem;
+    border: 1px solid var(--color-line);
+    background: var(--color-paper);
+    border-radius: 2px;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition:
+      border-color 0.3s,
+      background-color 0.3s,
+      color 0.3s;
+  }
+  .seg:hover {
+    border-color: var(--color-ink);
+  }
+  .seg:has(input:checked) {
+    border-color: var(--color-bordeaux);
+    background: var(--color-bordeaux);
+    color: var(--color-cream);
+  }
+  .seg:has(input:disabled) {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  .seg:has(input:focus-visible) {
+    outline: 2px solid var(--color-bordeaux);
+    outline-offset: 3px;
+  }
+
+  /* Emplacement photo sans photo : nappe vichy très discrète */
+  .vichy {
+    background-color: var(--color-cream-deep);
+    background-image:
+      repeating-linear-gradient(0deg, rgb(110 31 39 / 0.045) 0 14px, transparent 14px 28px),
+      repeating-linear-gradient(90deg, rgb(110 31 39 / 0.045) 0 14px, transparent 14px 28px);
+  }
+  .vichy-dark {
+    background-image:
+      repeating-linear-gradient(0deg, rgb(245 239 227 / 0.035) 0 14px, transparent 14px 28px),
+      repeating-linear-gradient(90deg, rgb(245 239 227 / 0.035) 0 14px, transparent 14px 28px);
+  }
+
+  .zoom {
+    position: relative;
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 1.4s var(--ease-soft);
+  }
+  .group:hover .zoom img {
+    transform: scale(1.03);
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 20px));
+}
+.reveal {
+  transition:
+    opacity 0.9s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 0.9s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.4s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 0.8s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (1,2 s) : fond crème, une cocotte se dessine au trait bordeaux, un peu de vapeur monte,
+   « L'ATELIER » puis « CUISINE FRANÇAISE » apparaissent, fondu sur le hero. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-cream);
+  animation: intro-out 0.25s ease-out 0.95s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw 0.5s cubic-bezier(0.45, 0, 0.25, 1) var(--d, 0s) forwards;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-steam {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  opacity: 0;
+  animation: intro-steam 0.45s ease-out var(--d) forwards;
+}
+@keyframes intro-steam {
+  0% {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  30% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.55;
+    stroke-dashoffset: 0;
+    transform: translateY(-3px);
+  }
+}
+.intro-name,
+.intro-sub {
+  opacity: 0;
+  animation: intro-text 0.35s var(--ease-soft) var(--d) forwards;
+}
+@keyframes intro-text {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Détails / FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+.faq-plus {
+  transition: transform 0.3s var(--ease-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

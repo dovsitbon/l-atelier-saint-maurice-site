@@ -1,0 +1,17 @@
+{
+  "_doc": "Emplacements photo du site. Déposez la photo dans assets/<dossier>/ puis lancez npm run photos (copie optimisée dans public/media/), et indiquez ici son chemin (/media/...). null = emplacement dessiné, sans fausse photo. Les textes alternatifs sont dans locales/*.json → photos.<id>.",
+  "hero": null,
+  "facade": null,
+  "salle": null,
+  "cassoulet": null,
+  "veau": null,
+  "platDuJour": null,
+  "entrees": null,
+  "plats": null,
+  "desserts": null,
+  "vins": null,
+  "cuisine": null,
+  "dejeuner": null,
+  "groupes": null,
+  "equipe": null
+}

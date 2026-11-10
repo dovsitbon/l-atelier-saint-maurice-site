@@ -1,0 +1,24 @@
+{
+  "_doc": "Plat du jour, à mettre à jour chaque semaine (ou chaque matin). « dates » prime sur « semaine » : un plat pour un jour précis (AAAA-MM-JJ). « semaine » : le plat habituel de chaque jour (2 = mardi … 5 = vendredi : le plat du jour est servi au déjeuner). prix : nombre en euros, ou null tant qu'il n'est pas connu (le site affiche alors « à remplir »). EXEMPLES À REMPLIR : plats tirés des spécialités citées dans les avis, à remplacer par les vrais.",
+  "maj": "2026-11-10",
+  "prix": null,
+  "semaine": {
+    "2": {
+      "fr": "Blanquette de veau à l'ancienne, riz",
+      "en": "Old-style veal blanquette with rice"
+    },
+    "3": {
+      "fr": "Tête de veau, sauce gribiche",
+      "en": "Calf's head with sauce gribiche"
+    },
+    "4": {
+      "fr": "Cassoulet de la maison",
+      "en": "House cassoulet"
+    },
+    "5": {
+      "fr": "Poisson du marché, beurre blanc",
+      "en": "Market fish, beurre blanc"
+    }
+  },
+  "dates": {}
+}

@@ -1,0 +1,15 @@
+# L'atelier
+
+> Restaurant de cuisine française traditionnelle au 47 quai Saint-Maurice, 80000 Amiens (France). Cassoulet, tête de veau sauce gribiche, blanquette de veau, plat du jour, desserts maison. Note Google 4,6/5 sur 80 avis (relevée le 10 novembre 2026).
+
+- Téléphone : 03 22 44 60 23 (+33 3 22 44 60 23)
+- Horaires : mardi au jeudi 8 h 30 – 15 h ; vendredi 8 h 30 – 15 h et 17 h 30 – 22 h ; samedi 17 h 30 – 22 h ; fermé dimanche et lundi
+- Déjeuner du mardi au vendredi (formule du midi à partir de 17 €, à confirmer), dîner le vendredi et le samedi
+- Environ 30 couverts, réservation conseillée
+
+## Pages
+- [Accueil](https://l-atelier-amiens.vercel.app/fr)
+- [La carte](https://l-atelier-amiens.vercel.app/fr/carte)
+- [Restaurant traditionnel à Amiens](https://l-atelier-amiens.vercel.app/fr/restaurant-traditionnel-amiens)
+- [Déjeuner à Amiens](https://l-atelier-amiens.vercel.app/fr/dejeuner-amiens)
+- [English](https://l-atelier-amiens.vercel.app/en)
