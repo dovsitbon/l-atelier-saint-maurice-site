@@ -164,11 +164,16 @@ function Landing({ lang, d, id }: { lang: Locale; d: Dict; id: "traditionnel" | 
           ))}
         </div>
         {id === "traditionnel" ? (
-          <div className="mt-20">
-            <Menu lang={lang} d={d} headingLevel={2} only={["plats"]} />
-            <Link href={pagePath("carte", lang)} className="btn-line mt-10">
-              {d.carte.seeAll}
-            </Link>
+          <div className="mt-20 grid items-start gap-12 md:grid-cols-[1fr_1.4fr] md:gap-16">
+            <div className="relative aspect-square overflow-hidden">
+              <PhotoSlot id={photos[1].photo} d={d} art={photos[1].art} sizes="(min-width: 768px) 38vw, 100vw" artClass="h-20 w-auto md:h-24" />
+            </div>
+            <div className="md:[&>div]:grid-cols-1">
+              <Menu lang={lang} d={d} headingLevel={2} only={["plats"]} />
+              <Link href={pagePath("carte", lang)} className="btn-line mt-10">
+                {d.carte.seeAll}
+              </Link>
+            </div>
           </div>
         ) : (
           <div className="mt-20 grid gap-12 md:grid-cols-2 md:gap-16">
