@@ -72,7 +72,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         {heroPhoto ? (
           <>
             <PhotoSlot id="hero" d={d} priority sizes="100vw" />
-            <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(30_27_24/0.78),rgb(30_27_24/0.25)_55%,rgb(30_27_24/0.1))]" aria-hidden="true" />
+            <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(30_27_24/0.85),rgb(30_27_24/0.5)_55%,rgb(30_27_24/0.2))]" aria-hidden="true" />
           </>
         ) : (
           <div className="vichy-dark absolute inset-0 -z-10" role="img" aria-label={d.photos.hero.alt}>

@@ -41,7 +41,7 @@ export function PhotoSlot({
   if (p)
     return (
       <>
-        <Image src={p.src} alt={t.alt} fill sizes={sizes} priority={priority} quality={75} className="object-cover" style={{ objectPosition: position }} />
+        <Image src={p.src} alt={t.alt} fill sizes={sizes} priority={priority} quality={80} className="object-cover" style={{ objectPosition: position }} />
         {p.kind === "illustration" && (
           <span className="absolute end-2 bottom-2 bg-ink/60 px-2 py-0.5 text-[0.6875rem] text-cream" aria-hidden="true">
             {d.illustration}
