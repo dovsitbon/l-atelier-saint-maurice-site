@@ -353,12 +353,12 @@
   "placeholder": "Photo à venir",
   "photos": {
     "hero": {
-      "label": "La salle ou un plat signature",
-      "alt": "La salle de L'atelier, quai Saint-Maurice à Amiens"
+      "label": "La façade",
+      "alt": "La façade de L'atelier, bar-restaurant en briques aux volets bleus, au 47 quai Saint-Maurice à Amiens"
     },
     "facade": {
       "label": "La façade",
-      "alt": "La façade de L'atelier au 47 quai Saint-Maurice"
+      "alt": "L'angle du restaurant L'atelier, enseigne rouge et volets bleus, quai Saint-Maurice"
     },
     "salle": {
       "label": "La salle",
@@ -366,43 +366,43 @@
     },
     "cassoulet": {
       "label": "Le cassoulet",
-      "alt": "Le cassoulet de la maison"
+      "alt": "Photo d'illustration : haricots blancs mijotés avec de la viande, dans une assiette creuse"
     },
     "veau": {
       "label": "La tête de veau",
-      "alt": "Tête de veau, sauce gribiche"
+      "alt": "Tête de veau sauce gribiche servie dans une assiette à bord rouge, à L'atelier"
     },
     "platDuJour": {
-      "label": "L'ardoise",
-      "alt": "L'ardoise du plat du jour"
+      "label": "Le plat du jour",
+      "alt": "Dos de cabillaud au citron, épinards et pommes vapeur, servi à L'atelier"
     },
     "entrees": {
       "label": "Une entrée",
-      "alt": "Une entrée de la carte"
+      "alt": "Foie gras et toasts grillés servis en entrée à L'atelier"
     },
     "plats": {
       "label": "Un plat",
-      "alt": "Un plat de la carte"
+      "alt": "Viande mijotée en sauce aux champignons, servie dans une assiette à bord rouge à L'atelier"
     },
     "desserts": {
       "label": "Un dessert",
-      "alt": "Un dessert maison"
+      "alt": "Photo d'illustration : crème brûlée dans un ramequin, feuilles de menthe"
     },
     "vins": {
       "label": "Les vins",
-      "alt": "Verres de vin au comptoir"
+      "alt": "Photo d'illustration : verres à vin sur une table de bistrot"
     },
     "cuisine": {
       "label": "En cuisine",
-      "alt": "Une cocotte en cuisine"
+      "alt": "Médaillons de viande en sauce, endive et haricots verts au lard, servis à L'atelier"
     },
     "dejeuner": {
       "label": "Le déjeuner",
-      "alt": "Une table dressée pour le déjeuner"
+      "alt": "Un plat en sauce et des frites sur une table de L'atelier, à midi"
     },
     "groupes": {
       "label": "La salle dressée",
-      "alt": "La salle dressée pour un groupe"
+      "alt": "Photo d'illustration : tables dressées avec des nappes blanches dans un restaurant"
     },
     "equipe": {
       "label": "Le patron",
@@ -494,5 +494,6 @@
       "photos": "Photos et textes",
       "photosText": "Photos et textes : L'atelier. Toute reproduction est soumise à autorisation."
     }
-  }
+  },
+  "illustration": "Photo d'illustration"
 }

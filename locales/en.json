@@ -353,12 +353,12 @@
   "placeholder": "Photo coming soon",
   "photos": {
     "hero": {
-      "label": "The dining room or a signature dish",
-      "alt": "The dining room at L'atelier, quai Saint-Maurice, Amiens"
+      "label": "The front",
+      "alt": "L'atelier's brick front with blue shutters at 47 quai Saint-Maurice, Amiens"
     },
     "facade": {
       "label": "The front",
-      "alt": "L'atelier's shopfront at 47 quai Saint-Maurice"
+      "alt": "The corner of L'atelier, red sign and blue shutters, quai Saint-Maurice"
     },
     "salle": {
       "label": "The dining room",
@@ -366,43 +366,43 @@
     },
     "cassoulet": {
       "label": "The cassoulet",
-      "alt": "The house cassoulet"
+      "alt": "Illustration photo: slow-cooked white beans with meat in a deep plate"
     },
     "veau": {
       "label": "Calf's head",
-      "alt": "Calf's head with sauce gribiche"
+      "alt": "Calf's head with sauce gribiche on a red-rimmed plate at L'atelier"
     },
     "platDuJour": {
-      "label": "The chalkboard",
-      "alt": "The dish of the day chalkboard"
+      "label": "Dish of the day",
+      "alt": "Cod with lemon, spinach and steamed potatoes, served at L'atelier"
     },
     "entrees": {
       "label": "A starter",
-      "alt": "A starter from the menu"
+      "alt": "Foie gras with toast served as a starter at L'atelier"
     },
     "plats": {
       "label": "A main",
-      "alt": "A main course from the menu"
+      "alt": "Braised meat in mushroom sauce on a red-rimmed plate at L'atelier"
     },
     "desserts": {
       "label": "A dessert",
-      "alt": "A homemade dessert"
+      "alt": "Illustration photo: crème brûlée in a ramekin with mint leaves"
     },
     "vins": {
       "label": "Wine",
-      "alt": "Glasses of wine at the counter"
+      "alt": "Illustration photo: wine glasses on a bistro table"
     },
     "cuisine": {
       "label": "In the kitchen",
-      "alt": "A cast-iron pot in the kitchen"
+      "alt": "Meat medallions in sauce with endive and bacon-wrapped green beans, served at L'atelier"
     },
     "dejeuner": {
       "label": "Lunch",
-      "alt": "A table set for lunch"
+      "alt": "A dish in sauce with fries on a table at L'atelier, at lunchtime"
     },
     "groupes": {
       "label": "The room, set",
-      "alt": "The room set for a group"
+      "alt": "Illustration photo: restaurant tables set with white tablecloths"
     },
     "equipe": {
       "label": "The owner",
@@ -494,5 +494,6 @@
       "photos": "Photos and text",
       "photosText": "Photos and text: L'atelier. Reproduction requires permission."
     }
-  }
+  },
+  "illustration": "Illustration photo"
 }
